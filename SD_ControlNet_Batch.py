@@ -49,6 +49,6 @@ for image_file in tqdm(image_files):
     pose_image_path = os.path.join(image_dir, f"pose_{image_file}")
     image_pose.save(pose_image_path)
 
-
+#Optional
 # image_output = pipe("A pixelart character", image_pose, num_inference_steps=20).images[0]
 # image_output
